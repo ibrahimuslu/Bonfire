@@ -155,7 +155,7 @@ echo "<?php
 
 if (\$validation_errors) :
 ?>
-<div class="alert alert-error fade in alert-warning alert-dismissable">
+<div class='alert alert-error fade in alert-warning alert-dismissable'>
 	<a class='close' data-dismiss='alert'>&times;</a>
 	<h4 class='alert-heading'>
 		<?php echo lang('{$module_name_lower}_errors_message'); ?>
